@@ -1,0 +1,10 @@
+#Thought Note#
+
+Kush's Kitchen: A CSS Project
+
+This project included all the requested details.
+This project used a lot of CSS property
+This project has 1 main index page with 3 child pages 
+This project gives us a good hands on exprenence of using blend of HTML and CSS together.
+
+Thank you 

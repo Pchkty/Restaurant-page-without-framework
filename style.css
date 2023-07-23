@@ -1,0 +1,28 @@
+body{
+  background-image: url(https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: repeat;
+}
+
+#mainheader {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #537188;
+}
+
+
+#location {
+    text-align: center;
+  }
+.header{
+    text-align: center;
+  }
+
+
+#con_us {
+  background-color: cadetblue;
+  border: 2px solid black;
+}
+  
+/*About us*/
+
+ 
+

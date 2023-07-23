@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Menu</title>
+  <style>
+   .foodtime{
+      background-color: aquamarine;
+      text-align: center;
+      font-family: 'Trebuchet MS';
+      border-radius: 20px;}
+   .menu{
+      background-color: aqua;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      border-radius: 20px;}  
+   .cardset{
+     display: flex;
+     flex-direction:row;
+     padding:auto;} 
+   .fooditem{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     background-color: aliceblue;
+     width: 200px;
+     height: 350px;
+     margin: auto;
+     text-align: center;
+     float: none;
+     border-radius: 25px;
+     padding: 20px;
+     transition: ease-in 0.3s}
+   .fooditem:hover {
+      box-shadow: 8px 8px 16px 0 rgb(0, 0, 0);
+      transition: ease-out 0.25ms;} 
+    .foodname{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }   
+    .img{
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!--Header Section-->
+  <div class="top">
+   <a href="index.html">&#127969;Back to home page</a>
+   <h1 class="menu">Our Menu</h1>
+  </div>
+  <!--Content Section-->
+  <!--Breakfast Section-->
+  <div class="Breakfast">
+    <h3 class="foodtime">Breakfast</h3>
+    <div class="cardset">
+      <div class="fooditem">
+        <img src="https://images.pexels.com/photos/5446513/pexels-photo-5446513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sandwich" width="200" height="150">
+        <h1 class="foodname">Sandwich</h1>
+        <p class="price">50 Rupees-2 Piece</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="https://images.pexels.com/photos/10831651/pexels-photo-10831651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Burger" width="200" height="150">
+        <h1 class="foodname">Burger</h1>
+        <p class="price">70 Rupees-2 Piece</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="Media/aloo-paratha-1.jpg" alt="Allu Parat" width="200" height="150">
+        <h1 class="foodname">Allu Paratha</h1>
+        <p class="location">20 Rupees-1 Piece</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="Media/Roti-Plain-1.jpg" alt="Plain Roti" width="200" height="150">
+        <h1 class="foodname">Plain Roti</h1>
+        <p class="location">10 Rupees-1 Piece</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="Media/Kachori-Blog.jpg" alt="Kachori" width="200" height="150">
+        <h1 class="foodname">Kachori</h1>
+        <p class="location">15 Rupees-1 Piece</p>
+        <p><button>Buy</button></p>
+      </div>
+    </div>
+  </div>
+  <!--Lunch Section-->
+  <div class="Lunch">
+    <h3 class="foodtime">Lunch</h3>
+    <div class="cardset">
+      <div class="fooditem">
+        <img src="Media/jeera rice.jpg" alt="Jerra Rice" width="200" height="150">
+        <h1 class="foodname">Jerra Rice</h1>
+        <p class="price">70 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="Media/dosa-recipe.jpg" alt="Plain Dosa" width="150" height="150">
+        <h1 class="foodname">Plain Dosa</h1>
+        <p class="location">85 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Non-veg combo" width="150" height="150">
+        <h1 class="foodname">Non-Veg combo</h1>
+        <p class="location">60 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="https://images.pexels.com/photos/983587/pexels-photo-983587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Veg Plate" width="150" height="150">
+        <h1 class="foodname">Veg Plate</h1>
+        <p class="location">55 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="https://images.pexels.com/photos/7426867/pexels-photo-7426867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Non-veg Plate" width="150" height="150">
+        <h1 class="foodname">Non-veg Plate</h1>
+        <p class="location">115 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+    </div>
+  </div>
+  <!--Dinner Section-->
+  <div class="dinner">
+    <h3 class="foodtime">Dinner</h3>
+    <div class="cardset">
+      <div class="fooditem">
+        <img src="Media/mutton-biriyani-recipe.jpeg" alt="Biriyani" width="150" height="150">
+        <h1 class="foodname">Biriyani</h1>
+        <p class="location">175 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="Media/kabab.jpg" alt="Kabab" width="150" height="150">
+        <h1 class="foodname">Kabab</h1>
+        <p class="location">60 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="Media/Chicken-Chow-Mein-13.jpg" alt="Chowmin" width="150" height="150">
+        <h1 class="foodname">Chowmin</h1>
+        <p class="location">115 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="Media/FishCutlet11.jpg" alt="Fish Cutlet" width="150" height="150">
+        <h1 class="foodname">Fish Cutlet</h1>
+        <p class="location">50 Rupees-1 Piece</p>
+        <p><button>Buy</button></p>
+      </div>
+      <div class="fooditem">
+        <img src="Media/dal-tadka-recipe-500x500.jpg" alt="Dal Tadka" width="150" height="150">
+        <h1 class="foodname">Dal Tadka</h1>
+        <p class="location">120 Rupees-1 Plate</p>
+        <p><button>Buy</button></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
